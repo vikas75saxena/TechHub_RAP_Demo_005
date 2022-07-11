@@ -3,7 +3,7 @@
   headerInfo: { typeName: 'Contractor', typeNamePlural: 'Contractors', title: { type: #STANDARD, value: 'contractor_id' } } }
 @Search.searchable: true
 @ObjectModel.semanticKey: ['contractor_id']
-@ObjectModel.query.implementedBy: 'ABAP:ZUM_CTRB_BACKEND_SEL'
+@ObjectModel.query.implementedBy: 'ABAP:ZTHAC_CTRB_BACKEND_SEL'
 define root custom entity ZTHAC_CTRB_CUST
 {
       @UI: {
